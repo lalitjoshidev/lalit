@@ -3,10 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <h1>Hey, Myself Lalit Mohan Joshi </h1>
+    <title>Lalit Mohan Joshi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">LMJ</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="parallax">
+            <div class="content">
+                <h1>Lalit Mohan Joshi</h1>
+                <p>AI & ML Student | Innovator | Problem Solver</p>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="content">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="./profile.jpg" alt="Lalit Mohan Joshi" class="profile-img">
+                    <div class="about-text">
+                        <p>I'm a passionate AI and ML student at Galgotias University, dedicated to creating innovative solutions that make a real impact in the tech world. With a keen interest in cutting-edge technologies, I strive to push the boundaries of what's possible in artificial intelligence and machine learning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="parallax">
+            <h2>Skills</h2>
+            <div class="skills-container"></div>
+        </section>
+
+        <!-- Update the projects section -->
+        <section id="projects">
+            <div class="content">
+                <h2>Projects</h2>
+                <div class="projects-container"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="parallax">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> joshimohanlalit1303@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 7455836613</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Galgotias University, Greater Noida, India</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/joshi.lalit.2006/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lalit Mohan Joshi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
